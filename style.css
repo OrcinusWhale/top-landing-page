@@ -68,6 +68,7 @@ a, .subtext {
     display: flex;
     justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .ziv {
@@ -96,11 +97,20 @@ a, .subtext {
 
 .section-three {
     background-color: #e5e7eb;
-    padding: 100px 300px;
+    display: flex;
+    padding: 150px 0;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    flex-basis: 800px;
+}
+
+.credit {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
