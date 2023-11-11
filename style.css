@@ -114,3 +114,43 @@ a, .subtext {
     font-weight: bold;
     font-size: 24px;
 }
+
+.section-four {
+    padding: 100px 400px;
+}
+
+.action-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.action-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text {
+    color: #f9faf8;
+    margin-top: 4px;
+}
+
+.action-button {
+    color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1F2937;
+    color: white;
+}
